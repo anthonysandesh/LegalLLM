@@ -51,17 +51,17 @@ The ability for users to upload PDFs or images of case documents for analysis is
 
 ## Challenges Encountered
 
-### 1. **PDF/Image Upload and Processing**
-- **Problem:** Implementing OCR to handle diverse legal document formats and quality.  
-- **Reason:** Complex layouts and poor quality in scanned documents.  
+### 1. **Running on Local Machine**
+- **Problem:** The large model required for training and inference exceeded the computational capacity of standard local hardware.  
+- **Reason:** Running the entire system on a local machine resulted in slow processing times and limited scalability.  
 
-### 2. **Dataset Size and Preprocessing**
-- **Problem:** Managing and preprocessing large volumes of unstructured data.  
-- **Reason:** Diverse formats and complex legal language in case records.  
+### 2. **Embedding Creation**
+- **Problem:** Creating embeddings for the legal dataset was extremely time-consuming.  
+- **Reason:** The extensive size of the dataset and the complexity of generating high-quality embeddings using large models.  
 
-### 3. **Model Performance**
-- **Problem:** Optimizing inference speed and accuracy for real-time applications.  
-- **Reason:** Balancing fine-tuning and latency on large models.  
+### 3. **Model Accuracy**
+- **Problem:** Ensuring the chatbot provided accurate and relevant responses consistently.  
+- **Reason:** Limitations in the underlying model and inconsistencies in the quality of retrieved legal documents.
 
 ---
 
