@@ -51,33 +51,45 @@ The ability for users to upload PDFs or images of case documents for analysis is
 
 ## Challenges Encountered
 
-### 1. **PDF/Image Upload and Processing**
-- **Problem:** Implementing OCR to handle diverse legal document formats and quality.  
-- **Reason:** Complex layouts and poor quality in scanned documents.  
+### 1. **Running on Local Machine**
+- **Problem:** The large model required for training and inference exceeded the computational capacity of standard local hardware.  
+- **Reason:** Running the entire system on a local machine resulted in slow processing times and limited scalability.  
 
-### 2. **Dataset Size and Preprocessing**
-- **Problem:** Managing and preprocessing large volumes of unstructured data.  
-- **Reason:** Diverse formats and complex legal language in case records.  
+### 2. **Embedding Creation**
+- **Problem:** Creating embeddings for the legal dataset was extremely time-consuming.  
+- **Reason:** The extensive size of the dataset and the complexity of generating high-quality embeddings using large models.  
 
-### 3. **Model Performance**
-- **Problem:** Optimizing inference speed and accuracy for real-time applications.  
-- **Reason:** Balancing fine-tuning and latency on large models.  
+### 3. **Model Accuracy**
+- **Problem:** Ensuring the chatbot provided accurate and relevant responses consistently.  
+- **Reason:** Limitations in the underlying model and inconsistencies in the quality of retrieved legal documents.
+
+---
+
+## Solutions Implemented
+
+### 1. **Optimized Embedding Process**
+- **Solution:** Used the Llama 3.1 model for generating embeddings and stored them efficiently in ChromaDB.  
+- **Impact:** Significantly reduced the time required for embedding creation and enabled faster retrieval of relevant documents.  
+
+### 2. **Improved Model Accuracy**
+- **Solution:** Applied prompt engineering techniques to refine the chatbot's responses.  
+- **Impact:** Enhanced the accuracy and relevance of responses by ensuring the model adhered to specific instructions and context.
 
 ---
 
 ## Plans to Overcome Challenges and Move Forward
 
-### 1. **PDF/Image Upload Feature**
+### 1. **PDF/Image Upload Feature**  
 - **Plan:** Leverage OCR tools (e.g., Tesseract, Google Cloud Vision) to extract and process text.  
-- **Next Steps:** Develop pre-processing pipelines to clean and format the extracted data.
+- **Next Steps:** Develop pre-processing pipelines to clean and format the extracted data.  
 
-### 2. **Dataset Optimization**
-- **Plan:** Use distributed frameworks like Apache Spark for data processing.  
-- **Next Steps:** Implement custom parsing scripts to standardize data structures.
+### 2. **Scalability Improvements**  
+- **Plan:** Migrate the application to a cloud-based infrastructure (e.g., AWS, Google Cloud) to handle large-scale operations.  
+- **Next Steps:** Set up auto-scaling instances to manage computational loads and optimize resource utilization.  
 
-### 3. **Model Performance Enhancement**
-- **Plan:** Use model quantization techniques to reduce latency.  
-- **Next Steps:** Optimize real-time inference with hardware accelerators like GPUs/TPUs.  
+### 3. **Advanced Model Fine-Tuning**  
+- **Plan:** Fine-tune the Llama 3.1 model using domain-specific legal datasets for better contextual understanding.  
+- **Next Steps:** Collect additional labeled data, perform transfer learning, and validate performance improvements.  
 
 ---
 
