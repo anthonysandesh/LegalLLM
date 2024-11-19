@@ -65,6 +65,18 @@ The ability for users to upload PDFs or images of case documents for analysis is
 
 ---
 
+## Solutions Implemented
+
+### 1. **Optimized Embedding Process**
+- **Solution:** Used the Llama 3.1 model for generating embeddings and stored them efficiently in ChromaDB.  
+- **Impact:** Significantly reduced the time required for embedding creation and enabled faster retrieval of relevant documents.  
+
+### 2. **Improved Model Accuracy**
+- **Solution:** Applied prompt engineering techniques to refine the chatbot's responses.  
+- **Impact:** Enhanced the accuracy and relevance of responses by ensuring the model adhered to specific instructions and context.
+
+---
+
 ## Plans to Overcome Challenges and Move Forward
 
 ### 1. **PDF/Image Upload Feature**
