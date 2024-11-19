@@ -37,8 +37,6 @@ The ability for users to upload PDFs or images of case documents for analysis is
    ![2 Screenshot](images/2.png)  
    ![3 Screenshot](images/3.png)  
 
-*(Replace the `path/to/screenshotX.png` with the actual file paths of your screenshots.)*
-
 ---
 
 ## References
