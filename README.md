@@ -21,7 +21,7 @@ The ability for users to upload PDFs or images of case documents for analysis is
 
 ### 2. Precedent Case Recommendation (PCR)
 - **Purpose:** Recommends relevant precedent cases for the input context.  
-- **Implementation:** Fine-tuned Llama 2.0 on legal texts identifies critical precedents.  
+- **Implementation:** Fine-tuned Llama 3.0 on legal texts identifies critical precedents.  
 - **Output:** Presents the top precedents with detailed relevance explanations.
 
 ### 3. Legal Judgment Prediction (LJP)
