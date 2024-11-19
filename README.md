@@ -33,10 +33,9 @@ The ability for users to upload PDFs or images of case documents for analysis is
 
 ## Screenshots
 
-   ![SCR Screenshot](images/1.png)  
-   ![PCR Screenshot](path/to/screenshot2.png)  
-   ![LJP Screenshot](path/to/screenshot3.png)  
-   ![Dashboard Screenshot](path/to/screenshot4.png)  
+   ![1 Screenshot](images/1.png)  
+   ![2 Screenshot](images/2.png)  
+   ![3 Screenshot](images/3.png)  
 
 *(Replace the `path/to/screenshotX.png` with the actual file paths of your screenshots.)*
 
@@ -92,6 +91,6 @@ Contributions are welcome!
 
 > **Contact Information:**  
 > For queries, reach out to the team:  
-> - Danishbir Singh Bhatti: [danishbirsingh.bhatti@sjsu.edu](mailto:danishbirsingh.bhatti@sjsu.edu)  
-> - Jay Shon: [seojun.shon@sjsu.edu](mailto:seojun.shon@sjsu.edu)  
-> - Anthony Kommareddy: [anthonysandeshreddy.kommareddy@sjsu.edu](mailto:anthonysandeshreddy.kommareddy@sjsu.edu)  
+> - Danishbir Singh Bhatti(017521647): [danishbirsingh.bhatti@sjsu.edu](mailto:danishbirsingh.bhatti@sjsu.edu)  
+> - Jay Shon(017553289): [seojun.shon@sjsu.edu](mailto:seojun.shon@sjsu.edu)  
+> - Anthony Kommareddy(017506957): [anthonysandeshreddy.kommareddy@sjsu.edu](mailto:anthonysandeshreddy.kommareddy@sjsu.edu)  
