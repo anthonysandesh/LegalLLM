@@ -33,16 +33,9 @@ The ability for users to upload PDFs or images of case documents for analysis is
 
 ## Screenshots
 
-1. **Similar Case Retrieval (SCR)**  
-   ![SCR Screenshot](path/to/screenshot1.png)  
-
-2. **Precedent Case Recommendation (PCR)**  
+   ![SCR Screenshot](images/1.png)  
    ![PCR Screenshot](path/to/screenshot2.png)  
-
-3. **Legal Judgment Prediction (LJP)**  
    ![LJP Screenshot](path/to/screenshot3.png)  
-
-4. **Web Application Dashboard**  
    ![Dashboard Screenshot](path/to/screenshot4.png)  
 
 *(Replace the `path/to/screenshotX.png` with the actual file paths of your screenshots.)*
