@@ -43,7 +43,7 @@ The ability for users to upload PDFs or images of case documents for analysis is
 
 1. [CaseLaw Dataset](https://case.law/)  
 2. [Hugging Face Transformers Library](https://github.com/huggingface/transformers)  
-3. [Llama 2.0](https://www.llama.com/llama2)  
+3. [Llama 3.0](https://www.llama.com/llama3)  
 4. [Revolutionizing Legal Research Paper](https://www.purplescape.com/revolutionizing-legal-research)  
 5. [Legal NLP Research Paper](https://ieeexplore.ieee.org/document/10386911)  
 
