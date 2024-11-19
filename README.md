@@ -80,16 +80,16 @@ The ability for users to upload PDFs or images of case documents for analysis is
 ## Plans to Overcome Challenges and Move Forward
 
 1. **PDF/Image Upload Feature**  
-   - **Plan:** Leverage OCR tools (e.g., Tesseract, Google Cloud Vision) to extract and process text.  
-   - **Next Steps:** Develop pre-processing pipelines to clean and format the extracted data.  
+- **Plan:** Leverage OCR tools (e.g., Tesseract, Google Cloud Vision) to extract and process text.  
+- **Next Steps:** Develop pre-processing pipelines to clean and format the extracted data.  
 
 2. **Scalability Improvements**  
-   - **Plan:** Migrate the application to a cloud-based infrastructure (e.g., AWS, Google Cloud) to handle large-scale operations.  
-   - **Next Steps:** Set up auto-scaling instances to manage computational loads and optimize resource utilization.  
+- **Plan:** Migrate the application to a cloud-based infrastructure (e.g., AWS, Google Cloud) to handle large-scale operations.  
+- **Next Steps:** Set up auto-scaling instances to manage computational loads and optimize resource utilization.  
 
 3. **Advanced Model Fine-Tuning**  
-   - **Plan:** Fine-tune the Llama 3.1 model using domain-specific legal datasets for better contextual understanding.  
-   - **Next Steps:** Collect additional labeled data, perform transfer learning, and validate performance improvements.  
+- **Plan:** Fine-tune the Llama 3.1 model using domain-specific legal datasets for better contextual understanding.  
+- **Next Steps:** Collect additional labeled data, perform transfer learning, and validate performance improvements.  
 
 ---
 
